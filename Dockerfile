@@ -22,6 +22,6 @@ RUN git clone https://github.com/audiometric/audiogrep.git
 RUN cd audiogrep && pip install -r requirements.txt
 
 # install
-RUN chmod +x audiogrep/audiogrep.py
-RUN cp audiogrep/audiogrep.py /usr/bin/audiogrep
+RUN chmod +x audiogrep/audiogrep/audiogrep.py
+RUN cp audiogrep/audiogrep/audiogrep.py /usr/bin/audiogrep
 
