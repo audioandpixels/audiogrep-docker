@@ -18,7 +18,7 @@ RUN apt-get install -y pocketsphinx-lm-wsj
 RUN apt-get install -y git python python-pip
 
 # audiogrep
-RUN git clone https://github.com/audiometric/audiometric-app.git
+RUN git clone https://github.com/audiometric/audiogrep.git
 RUN cd audiogrep && pip install -r requirements.txt
 
 # install
