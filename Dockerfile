@@ -13,6 +13,8 @@ RUN apt-get install -y ffmpeg
 RUN apt-get install -y pocketsphinx-utils
 RUN apt-get install -y pocketsphinx-hmm-wsj1
 RUN apt-get install -y pocketsphinx-lm-wsj
+RUN apt-get install -y pocketsphinx-hmm-en-hub4wsj
+RUN apt-get install -y pocketsphinx-lm-en-hub4
 
 # python
 RUN apt-get install -y git python python-pip
